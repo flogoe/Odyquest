@@ -8,7 +8,6 @@ import { Description } from 'src/app/shared/models/description';
 import { GameElement } from 'src/app/shared/models/gameElement';
 import { Narrative } from 'src/app/shared/models/narrative';
 import { Quest } from 'src/app/shared/models/quest';
-import { SELECT_PANEL_INDENT_PADDING_X } from '@angular/material/select';
 import { saveAs } from 'file-saver';
 
 @Component({

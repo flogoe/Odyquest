@@ -9,7 +9,6 @@ import {
 import { XButton } from 'src/app/shared/models/xButton';
 import { Chase } from '../../shared/models/chase';
 import { LogicType, SolutionTerm } from '../../shared/models/solution_term';
-import { CombineLatestSubscriber } from 'rxjs/internal/observable/combineLatest';
 import { Description } from '../../shared/models/description';
 import { MainEditorComponent } from '../main-editor/main-editor.component';
 import { ChaseService } from 'src/app/shared/services/chase.service';
