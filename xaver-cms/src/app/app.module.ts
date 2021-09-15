@@ -157,7 +157,7 @@ const appRoutes: Routes = [
     MatSortModule,
     MatPaginatorModule,
     OAuthModule.forRoot(),
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' }),
   ],
   entryComponents: [CreateChaseDialogComponent],
   providers: [
